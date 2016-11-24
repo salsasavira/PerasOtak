@@ -29,25 +29,31 @@ public class frame3 extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
         btnNama = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("GeoSlab703 MdCn BT", 1, 48)); // NOI18N
         jLabel1.setText("Nama");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(40, 100, 130, 60);
+        jLabel1.setBounds(40, 10, 130, 60);
         getContentPane().add(jTextField1);
-        jTextField1.setBounds(180, 100, 170, 60);
+        jTextField1.setBounds(190, 20, 170, 60);
 
-        btnNama.setText("OK");
+        btnNama.setIcon(new javax.swing.ImageIcon("D:\\TUGAS\\kelas XI\\pbo\\desain\\ok.png")); // NOI18N
+        btnNama.setContentAreaFilled(false);
         btnNama.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnNamaActionPerformed(evt);
             }
         });
         getContentPane().add(btnNama);
-        btnNama.setBounds(160, 170, 47, 23);
+        btnNama.setBounds(30, 70, 110, 80);
+
+        jLabel2.setIcon(new javax.swing.ImageIcon("D:\\TUGAS\\kelas XI\\pbo\\desain\\town.png")); // NOI18N
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(-10, 90, 450, 220);
 
         setBounds(0, 0, 416, 339);
     }// </editor-fold>//GEN-END:initComponents
@@ -96,6 +102,7 @@ public class frame3 extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnNama;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables
 }

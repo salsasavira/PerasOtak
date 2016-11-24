@@ -31,6 +31,7 @@ public class frame1 extends javax.swing.JFrame {
         Play = new javax.swing.JButton();
         Exit = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
+        Exit1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -42,7 +43,7 @@ public class frame1 extends javax.swing.JFrame {
         jLabel1.setBounds(100, -20, 200, 110);
 
         Play.setForeground(new java.awt.Color(255, 255, 255));
-        Play.setIcon(new javax.swing.ImageIcon("E:\\XI\\PBO By Pak Arifin\\play.png")); // NOI18N
+        Play.setIcon(new javax.swing.ImageIcon("D:\\TUGAS\\kelas XI\\pbo\\desain\\button.png")); // NOI18N
         Play.setBorder(null);
         Play.setBorderPainted(false);
         Play.setContentAreaFilled(false);
@@ -54,7 +55,7 @@ public class frame1 extends javax.swing.JFrame {
         jPanel1.add(Play);
         Play.setBounds(150, 100, 90, 80);
 
-        Exit.setIcon(new javax.swing.ImageIcon("E:\\XI\\PBO By Pak Arifin\\exit.png")); // NOI18N
+        Exit.setIcon(new javax.swing.ImageIcon("D:\\TUGAS\\kelas XI\\pbo\\desain\\help.png")); // NOI18N
         Exit.setContentAreaFilled(false);
         Exit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -62,11 +63,21 @@ public class frame1 extends javax.swing.JFrame {
             }
         });
         jPanel1.add(Exit);
-        Exit.setBounds(330, 0, 40, 30);
+        Exit.setBounds(0, 0, 40, 30);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("E:\\XI\\PBO By Pak Arifin\\askl.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon("D:\\TUGAS\\kelas XI\\pbo\\desain\\town.png")); // NOI18N
         jPanel1.add(jLabel2);
         jLabel2.setBounds(-30, 100, 470, 240);
+
+        Exit1.setIcon(new javax.swing.ImageIcon("D:\\TUGAS\\kelas XI\\pbo\\desain\\buttonx.png")); // NOI18N
+        Exit1.setContentAreaFilled(false);
+        Exit1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Exit1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(Exit1);
+        Exit1.setBounds(330, 0, 40, 30);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -93,6 +104,10 @@ public class frame1 extends javax.swing.JFrame {
         dua.show();
         dispose();
     }//GEN-LAST:event_PlayActionPerformed
+
+    private void Exit1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Exit1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Exit1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -131,6 +146,7 @@ public class frame1 extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Exit;
+    private javax.swing.JButton Exit1;
     private javax.swing.JButton Play;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
